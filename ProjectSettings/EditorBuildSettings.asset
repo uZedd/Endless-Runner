@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Saves/1.0.5 Maa ja tausta p\xE4ivitys.unity"
+    guid: 7ee1df684ed7c90469d572519d97b0c9
+  - enabled: 1
+    path: Assets/Saves/1.0.3 Pilvi animaatiot.unity
+    guid: 53e7fde42284c8c46a13ae76ba7423c0
+  - enabled: 1
+    path: Assets/Saves/1.0.2 Ohjeet nappi.unity
+    guid: 8c693177407267540a21e4ea973320e8
+  - enabled: 1
+    path: Assets/Saves/1.0.1 Pilvi animaatiot ja UI korjauksia.unity
+    guid: 610a0e3c794237c44b77138157396eeb
+  - enabled: 1
+    path: Assets/Saves/1.0.0 Helat pois.unity
+    guid: 66b3115fd625be045a725cb6c7e100be
+  - enabled: 1
+    path: Assets/Saves/0.0.9 Pelaaja modeli ja animaatio.unity
+    guid: acbe71629b01cec4a84381120a395698
+  - enabled: 1
+    path: Assets/Saves/0.0.8 Lintu Animaatiot.unity
+    guid: 50b39ff03a6945748b61b067441a63a9
+  - enabled: 1
+    path: Assets/Saves/0.0.7 Tekstuurit.unity
+    guid: 4a622b8b013f08843a1c4af9132ad2e0
+  - enabled: 1
+    path: Assets/Saves/0.0.6 TuplaHyppy + korjauksia.unity
+    guid: c8893bd657fcdfe4c811d26f56e03213
+  - enabled: 1
+    path: Assets/Saves/0.0.5 Aloitusmenu ja painikkeet.unity
+    guid: 3fe6ef21ccc772045a23c6307f9097e1
+  - enabled: 1
+    path: Assets/Saves/0.0.4 UI ja pisteet + parannuksia.unity
+    guid: 3d47b0ddc8bd5d14d96170d37bcd9020
+  - enabled: 1
+    path: Assets/Saves/0.0.3 Pelaajan kuolema ja parannuksia.unity
+    guid: 55086270f9fb5c44f8529e38f152dc68
+  - enabled: 1
+    path: Assets/Saves/0.0.2 Pelaaja ja tason optimointi.unity
+    guid: 02edb63bb7c48204eb053ea5922eb72a
+  m_configObjects: {}
