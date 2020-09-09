@@ -2255,6 +2255,7 @@ MonoBehaviour:
   putoaako: 0
   UI: {fileID: 0}
   JumpSound: {fileID: 8300000, guid: 486b5a0a62b196544b77add99ad23c48, type: 3}
+  HitSound: {fileID: 8300000, guid: ec1027b7bc2c0fe409ebf7defeeb8c3f, type: 3}
   HighScore: 0
 --- !u!212 &1586656841
 SpriteRenderer:

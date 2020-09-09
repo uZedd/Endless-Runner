@@ -11,6 +11,10 @@ public class Pelaaja : MonoBehaviour
     public bool putoaako = false;
     public GameObject UI;
 
+    //Muuttujat äänentoistoa varten
+    public AudioClip JumpSound;
+    public AudioClip HitSound;
+    private AudioSource Audio;
     
     
 
@@ -22,9 +26,10 @@ public class Pelaaja : MonoBehaviour
     private bool jumpTwo;
 
 
-    //poistetaan kuolinnäyttö alusta 
+    //poistetaan kuolinnäyttö alusta ja tuodaan audio komponentti muuttujaan
     void Start()
     {
+        Audio = GetComponent<AudioSource>();
         
         HighScore= PlayerPrefs.GetInt("HighScore", 0);
         jumpOne = false;
@@ -43,12 +48,15 @@ public class Pelaaja : MonoBehaviour
 
         
 
-         //määritetään hyppääminen ja tuplahyppääminen
+         //määritetään hyppääminen ja tuplahyppääminen 
        if(Input.GetKeyDown(KeyCode.Space)&&putoaako == false)
        {
            jumpOne = true;
            canDoubleJump = true;
            putoaako = true;
+
+           //Hyppy-äänen toistaminen 
+           Audio.PlayOneShot(JumpSound, 0.4f);
        }
 
        if(Input.GetKeyDown(KeyCode.Space)&&putoaako == true && canDoubleJump == true)
@@ -102,6 +110,9 @@ public class Pelaaja : MonoBehaviour
         {
             UI = GameObject.FindGameObjectWithTag("UI");
             UI.GetComponent<UIController>().TakeDamage();
+
+            //Osuma-äänen toistaminen 
+           Audio.PlayOneShot(HitSound, 1.0f);
         }
     }
 
