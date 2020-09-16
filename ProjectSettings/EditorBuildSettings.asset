@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: "Assets/Saves/1.0.8 \xC4\xE4net.unity"
+    guid: 4c33aee3210f7cf4eb38379bbb09f213
+  - enabled: 1
+    path: Assets/Saves/1.0.7 - Pallo animaatiot.unity
+    guid: dec7888e322cae348a4bf433a78fb1a2
+  - enabled: 1
     path: "Assets/Saves/1.0.5 Maa ja tausta p\xE4ivitys.unity"
     guid: 7ee1df684ed7c90469d572519d97b0c9
   - enabled: 1
