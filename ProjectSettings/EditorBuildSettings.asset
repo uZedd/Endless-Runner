@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Saves/1.0.9 - Boksi tekstuurit.unity
+    guid: 2121ae8d60642494ab5ad025ce3070cc
+  - enabled: 1
     path: "Assets/Saves/1.0.8 \xC4\xE4net.unity"
     guid: 4c33aee3210f7cf4eb38379bbb09f213
   - enabled: 1
